@@ -1,53 +1,51 @@
 ---
 sidebar_position: 2
-title : "Requsitos do Projeto"
+title : "Detalhes Técnicos do Drone Multiespectral Autônomo"
 ---
-
-# Detalhes Técnicos do Drone Multiespectral Autônomo
 
 ## Estrutura Física
 
-Tipo de Drone: Modular (quadricóptero ou hexacóptero, dependendo da aplicação).
+- **Tipo de Drone**: Modular (quadricóptero ou hexacóptero, dependendo da aplicação).
 
-Materiais: Fibra de carbono para braços e suportes, alumínio aeronáutico para estrutura central.
+- **Materiais**: Fibra de carbono para braços e suportes, alumínio aeronáutico para estrutura central.
 
-Montagem: Sistema de encaixe e parafusamento para facilitar manutenção e upgrades.
+- **Montagem**: Sistema de encaixe e parafusamento para facilitar manutenção e upgrades.
 
-Proteções: Carenagens contra intempéries e choque.
+- **Proteções**: Carenagens contra intempéries e choque.
 
 ## Sensoriamento
 
-Câmera Multiespectral: RGB + Infravermelho (IR) + NDVI.
+- **Câmera** Multiespectral: RGB + Infravermelho (IR) + NDVI.
 
-Sensores de Navegação:
+- **Sensores de Navegação**:
 
-GPS + RTK para posicionamento preciso.
+- - GPS + RTK para posicionamento preciso.
 
-LIDAR para mapeamento de obstáculos e altimetria.
+- - LIDAR para mapeamento de obstáculos e altimetria.
 
-IMU para orientação inercial (giroscópio, acelerômetro, magnetômetro).
+- - IMU para orientação inercial (giroscópio, acelerômetro, magnetômetro).
 
-Ultrassônicos para proximidade em ambientes internos.
+- - Ultrassônicos para proximidade em ambientes internos.
 
 ## Sistema de Controle
 
-Placa Controladora: Pixhawk (compatível com PX4 e ArduPilot).
+- **Placa Controladora**: Pixhawk (compatível com PX4 e ArduPilot).
 
-Firmware: ArduPilot (preferencial) ou PX4, com suporte a voo autônomo e rotas pré-definidas.
+- **Firmware**: ArduPilot (preferencial) ou PX4, com suporte a voo autônomo e rotas pré-definidas.
 
-Modos de Operação:
+- **Modos de Operação**:
 
-Manual (via rádio controle).
+- - Manual (via rádio controle).
 
-Semi-autônomo (waypoints definidos).
+- - Semi-autônomo (waypoints definidos).
 
-Totalmente autônomo (decisão baseada em dados processados).
+- - Totalmente autônomo (decisão baseada em dados processados).
 
-Software Embarcado
+## Software Embarcado
 
-Processamento Local: Raspberry Pi ou Jetson Nano como companion computer.
+- **Processamento Local**: Raspberry Pi ou Jetson Nano como companion computer.
 
-Linguagens:
+- **Linguagens**:
 
 Python (controle de missão, visão computacional, IA leve).
 
